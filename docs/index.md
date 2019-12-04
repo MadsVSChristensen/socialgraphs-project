@@ -1,4 +1,5 @@
 # Social graphs and interactions - Stack Overflow
+[I'm an inline-style link with title](https://nbviewer.jupyter.org/github/MadsVSChristensen/socialgraphs-project/blob/master/Project-assignment.ipynb "Explainer notebook")
 
 ## Dataset
 The page should say clearly what the dataset is and give the reader some idea of its most important properties (kind of Project Assignment A-style).
