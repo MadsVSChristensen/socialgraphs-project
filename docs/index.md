@@ -6,6 +6,9 @@ The page should say clearly what the dataset is and give the reader some idea of
 ## Analysis of network and text
 The page should contain your network and text analysis (that's the main part).
 
+### Network
+
+
 ## Download dataset
 There should be download options for data sets (so the user can play around).
 
