@@ -33,6 +33,12 @@ As can be seen from the bar plot, most of the tags fluctuate quite a bit. Especi
 
 We also se python increase in popularity, this correlates well with the trend seen in larger datasets and analyses<sup>1</sup>.
 
+Just to show that our data does infact portray the real world we show you reactjs' development throught the last 10 years.
+
+![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/react-tags-pr-year.PNG 'Logo Title Text 1')
+
+As you may have guessed from the bar plot, reactjs was launched in 2013 by Facebook and has since quickly gained a lot of popularity.
+
 #### Network of tags
 
 Each question has one or more tags, where you can tag more subjects if your questions has correlation to more than one subject. We want to see which tags are well connected and which groups of tags may appear.
@@ -41,13 +47,21 @@ With Force Atlas 2 we visualize a network labeling the 25 tags with highest degr
 
 ![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/fa2v1.PNG 'Logo Title Text 1')
 
-Below with highlights:
+This beautiful network clearly shows how a few nodes have a strong pull with some clear connections to other nodes, which we will now explore.
+
+Below we have highlighted the areas that we find interesting are grouped together.
 
 ![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/fa2v1-with-highlights.PNG 'Logo Title Text 1')
 
-![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/degree-hist-zoomed.PNG 'Logo Title Text 1')
+There are some clear correlations between certain tag groups, for example the group at the top of the network. This group contains angular, css, html and jquery. All are highly related to frontend and web development.
 
-![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/react-tags-pr-year.PNG 'Logo Title Text 1')
+Meanwhile a group of swift, ios, macos, xcode and linux have assembled on the right side. It seems Apple is such an important player in the world, that even our Stack Overflow network is affected by a single company. Linux has has snuck in there most as macos are both operating systems, and very similar to each other when compared to an OS like Microsoft.
+
+Performance computing has a group at the bottom with C, C++, string and performance. C++ and C are often used for high performance computing (HPC), but string has most likely to do with strings in C and C++ being problematic to most newcommers of the languages.
+
+#### Degree distribution
+
+![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/degree-hist-zoomed.PNG 'Logo Title Text 1')
 
 ## Download dataset
 
