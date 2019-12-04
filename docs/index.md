@@ -12,6 +12,11 @@ The page should contain your network and text analysis (that's the main part).
 
 ### Network
 
+![alt text](https://github.com/MadsVSChristensen/socialgraphs-project/blob/master/docs/degree-hist-zoomed.PNG "Logo Title Text 1")
+![alt text](https://github.com/MadsVSChristensen/socialgraphs-project/blob/master/docs/most-tags-all-time.PNG "Logo Title Text 1")
+![alt text](https://github.com/MadsVSChristensen/socialgraphs-project/blob/master/docs/fa2v1.PNG "Logo Title Text 1")
+![alt text](https://github.com/MadsVSChristensen/socialgraphs-project/blob/master/docs/react-tags-pr-year.PNG "Logo Title Text 1")
+![alt text](https://github.com/MadsVSChristensen/socialgraphs-project/blob/master/docs/tags-pr-year-for-6-most-pop.PNG "Logo Title Text 1")
 
 ## Download dataset
 There should be download options for data sets (so the user can play around).
