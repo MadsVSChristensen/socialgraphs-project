@@ -22,15 +22,15 @@ Are there even any differences from one code language to another? Don't they jus
 INSERT WHEEL ON LEFT; WORDCLOUD ON RIGHT
 
 
-<img src="javascript-wc.PNG" width="425"/> <img src="javascript-wc.PNG" width="425"/> 
+<img src="js-wordwheel.PNG" width="425"/> <img src="javascript-wc.PNG" width="425"/> 
 
-<img src="python-wc.PNG" width="425"/> <img src="python-wc.PNG" width="425"/> 
+<img src="python-wordwheel.PNG" width="425"/> <img src="python-wc.PNG" width="425"/> 
 
-<img src="git-wc.PNG" width="425"/> <img src="git-wc.PNG" width="425"/> 
+<img src="git-wordwheel.PNG" width="425"/> <img src="git-wc.PNG" width="425"/> 
 
-<img src="android-wc.PNG" width="425"/> <img src="android-wc.PNG" width="425"/> 
+<img src="android-wordwheel.PNG" width="425"/> <img src="android-wc.PNG" width="425"/> 
 
-<img src="java-wc.PNG" width="425"/> <img src="java-wc.PNG" width="425"/> 
+<img src="java-wordwheel.PNG" width="425"/> <img src="java-wc.PNG" width="425"/> 
 
 
 If it was too hard to guess, heres the order of display: Javascprit, Python, Git, Android, Java. These are select tags, based on them having the overall highest scores as we will see in the next part, and because they remain relevant.
