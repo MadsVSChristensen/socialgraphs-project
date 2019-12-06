@@ -30,7 +30,7 @@ Are there even any differences from one code language to another? Don't they jus
 <img src="java-wordwheel.png" width="425"/> <img src="java-wc.PNG" width="425"/> 
 
 
-If it was too hard to guess, heres the order of display: Javascprit, Python, Git, Android, Java. These are select tags, based on them having the overall highest scores as we will see in the next part, and because they remain relevant.
+If it was too hard to guess, heres the order of display: Javascprit, Python, Git, Android, Java. These are select tags, based on them having the overall highest scores as we will see in the next part because they remain relevant and have been remaining relevant for the last many years.
 
 ### Score
 
