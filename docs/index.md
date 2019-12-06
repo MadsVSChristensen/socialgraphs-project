@@ -59,9 +59,19 @@ Meanwhile a group of swift, ios, macos, xcode and linux have assembled on the ri
 
 Performance computing has a group at the bottom with C, C++, string and performance. C++ and C are often used for high performance computing (HPC), but string has most likely to do with strings in C and C++ being problematic to most newcommers of the languages.
 
+Stack Overflow has done some analysis themselves, and it might be interesting to compare our results.
+
+![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/so-insights.PNG 'Logo Title Text 1')
+
+We can see that their network has clear similarities to our network. The same groups of (swift, ios, macos, xcode and linux), (angular, css, html and jquery) and (android, java) occur in their network. Quite interesting that we can see the same results from an 10 year perspective, that they may see from 2019. This suggest that the software world is very structured and consistent when it comes to relations between programming subjects.
+
 #### Degree distribution
 
+Let's take a look at the connections between the nodes.
+
 ![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/degree-hist-zoomed.PNG 'Logo Title Text 1')
+
+It's very clear that most subject are only connected to approximately 5 or 6 other subjects. This could indicate that subjects on Stack Overflow are very secluded, and question are generally very specific. However it could also mean that a lot of programming subject do not share very many of the same problems. A language like C which has troublesome Strings (atleast for new programmers), does not share string issues with Java - a language which has simple String objects.
 
 ## Download dataset
 
