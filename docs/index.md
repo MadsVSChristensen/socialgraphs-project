@@ -4,7 +4,7 @@
 
 ## Central idea
 
-As a software engineer stackoverflow is used regularly, over not just a students lifetime at DTU, but also through the career. It is therefore entertaining to look into which questions or problems other people in the same situation deals with. The idea behind the project is to study stackoverflow's top questions over the last 10 years, to recognize the evoultion of programming languages and identify which problems relates to which languages. We also look into which words are important to a programming language. Furthermore we create a network of programming languages and detect communities within the network.
+As a software engineer stackoverflow is used regularly, over not just a students lifetime at DTU, but also through a career. Therefore we thought it would be interesting to look into which questions or problems other people in the same situation deals with. The idea behind the project is to study stackoverflow's top questions over the last 10 years, to recognize the evolution of programming and identify which problems relates to which languages. We also look into which words are important to some programming languages/topics. Furthermore we create a network of programming languages and detect communities within the network.
 
 ## Dataset
 
@@ -33,6 +33,7 @@ INSERT WHEEL ON LEFT; WORDCLOUD ON RIGHT
 <img src="java-wc.PNG" width="425"/> <img src="java-wc.PNG" width="425"/> 
 
 
+If it was too hard to guess, heres the order of display: Javascprit, Python, Git, Android, Java. These are select tags, based on them having the overall highest scores as we will see in the next part, and because they remain relevant.
 
 ### Score
 
@@ -52,7 +53,7 @@ When dealing with something like code languages, something might quite quickly g
 
 Going back in time the scores are higher, due to more and more years of accumulating score. Javascript is the tag/language with highest score most often, which correlates with it being the tag with highest score overall aswell. 
 
-The bar plot indicates that some tags or topics haven't just gone out of fashion for the last 10 years. One being Javascript, present in the top 5 every year. However, Git has way higher sum of scores earlier years. Git isn't changing very much, its not as dynamic as maybe other topics can be. That means that the same questions posted 10 years ago, are as relevant now as then. There probably isn't a lot of new questions regarding git. As a note to this, repetitions of questions are generally removed on Stack Overflow. 
+The bar plot indicates that some tags or topics haven't just gone out of fashion for the last 10 years. One being Javascript, present in the top 5 every year. However, Git has way higher sum of scores earlier years. Git isn't changing very much, its not as dynamic as other code languages can be. That means, that the same questions posted 10 years ago, can be as relevant now as then. The old questions accumulate higher and higher score when this is the case. As a sidenote to this, repetitions of questions are generally removed on Stack Overflow.
 
 ### Network
 
