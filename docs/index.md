@@ -8,7 +8,7 @@ As a software engineer stackoverflow is used regularly, over not just a students
 
 ## Dataset
 
-The dataset is pulled from the StackExchange API (https://api.stackexchange.com/). It consists of the top 100 questions every half month, based on score in descending order for the described timeframe. The API only allows for pulling 100 questions at a time, which is why we pull for every half month. This is done for the last 10 years, resulting in 2400 questions a year and a total of 240000 questions. The data is stored as a json object where the values from the tags, score, title and body keys is used for further processing. The dataset is around 30 mb in total.
+The dataset is pulled from the StackExchange API (https://api.stackexchange.com/). It consists of the top 100 questions every half month, based on score in descending order for the described timeframe. The API only allows for pulling 100 questions at a time, which is why we pull for every month. This is done for the last 10 years, resulting in 1200 questions a year and a total of 12000 questions. The data is stored as a json object where the values from the tags, score, title and body keys is used for further processing. The body contains answers to the question. The dataset is around 30 mb in total. 
 
 ## Analysis of network and text
 
