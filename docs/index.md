@@ -21,7 +21,7 @@ Are there even any differences from one code language to another? Don't they jus
 
 INSERT WHEEL ON LEFT; WORDCLOUD ON RIGHT
 
-![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/python-wc.PNG 'Tag total occurences') ![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/android-wc.PNG 'Tag total occurences')
+![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/python-wc.PNG =250x 'Tag total occurences') ![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/android-wc.PNG =250x 'Tag total occurences')
 
 
 ### Network
