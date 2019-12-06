@@ -14,6 +14,14 @@ The dataset is pulled from the StackExchange API (https://api.stackexchange.com/
 
 The page should contain your network and text analysis (that's the main part).
 
+### Text analysis
+## Are the code languages and topics on stack overflow even any different?
+
+Yes they are! And to show exactly how we have created two things for a select number of tags. The first one is a wheel of words characterizing the most common solved problems within each tag. These are generated from the words of the questions themselves, where the question resembles a problem and the words are commonly used words. The second display is a wordcloud. This is generated based on TF-IDF analysis on the bodies of a question. Each question have some number of answers, and these have been used in unison to characterize the tag/topic/code language. There will be a title, but maybe you can guess what tag they describe?
+
+INSERT WHEEL ON LEFT; WORDCLOUD ON RIGHT
+
+
 ### Network
 
 #### Popular tags
