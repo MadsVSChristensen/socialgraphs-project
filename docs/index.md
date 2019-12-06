@@ -14,15 +14,36 @@ The dataset is pulled from the StackExchange API (https://api.stackexchange.com/
 
 The page should contain your network and text analysis (that's the main part).
 
-## Text analysis
-### Examining code languages and topics on stack overflow
+### Text analysis
+#### Examining code languages and topics on stack overflow
 
 Are there even any differences from one code language to another? Don't they just discuss the same things? There are certainly differences, and the discussions seem to be quite specific within each topic. A topic corresponds to what is used as a tag on Stack Overflow. To show exactly how the topics differs from each other, we have used two tools for visualisation for a select number of tags. The first one is a wheel of words characterizing the most common solved problems within each tag. These are generated from the words of the questions themselves, where the question resembles a problem and the words are commonly used words. The second thing on display is a wordcloud. This is generated based on TF-IDF analysis on the bodies of a question. Each question have some number of answers, and these have been used in unison to characterize the tag/topic/code language. Maybe you can guess what tag is described?
 
 INSERT WHEEL ON LEFT; WORDCLOUD ON RIGHT
 
-![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/python-wc.PNG =250x 'Tag total occurences') ![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/android-wc.PNG =250x 'Tag total occurences')
+<img src="python-wc.PNG" width="425"/> <img src="python-wc.PNG" width="425"/> 
+![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/python-wc.PNG 'Tag total occurences') ![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/android-wc.PNG 'Tag total occurences')
 
+
+### Score
+
+#### Tags with highest sum of scores
+One might wonder, if the code language taught to you have any relevancy to other people as well. A tag with a very high score, hints that lots of people have problems within this topic, meaning a measure of relevancy, and that they could also receive help with their problem, meaning that someone actually knows how to solve the frequent problems. Maybe its a code language that is very common, and beginners often find themselves having one certain problem. That could indicate a weakness in the language, but a strength in this forum community on Stack Overflow, as a question with high score also indicates it has good answers.
+
+Lets take a look on the sum of score for the last 10 years, using top 100 scoring questions each month. 
+
+![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/score-sum.PNG)
+
+Javascript is apparantly the topic that is hottest, so to speak. Out of the most relevant questions, javascript seem to dominate as the language having the most frequent problems with a good solution. Further down we see datastructures and other tags. The plot is an overall picture, meaning this might not give a good picture for relevancy or "hotness" of a topic at this point in time. The computing world is in constant change! So lets try to see what happens over time.
+
+#### Tag score over time
+When dealing with something like code languages, something might quite quickly gain a lot of traffic while other languages burn out. Unless of course the language is something like Java which incredibly many trading systems (like banks) use. 
+
+![alt text](https://raw.githubusercontent.com/MadsVSChristensen/socialgraphs-project/master/docs/score-ot.PNG)
+
+Going back in time the scores are higher, due to more and more years of accumulating score. Javascript is the tag/language with highest score most often, which correlates with it being the tag with highest score overall aswell. 
+
+The bar plot indicates that some tags or topics haven't just gone out of fashion for the last 10 years. One being Javascript, present in the top 5 every year. However, Git has way higher sum of scores earlier years. Git isn't changing very much, its not as dynamic as maybe other topics can be. That means that the same questions posted 10 years ago, are as relevant now as then. There probably isn't a lot of new questions regarding git. As a note to this, repetitions of questions are generally removed on Stack Overflow. 
 
 ### Network
 
