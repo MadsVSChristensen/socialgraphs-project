@@ -14,10 +14,10 @@ The dataset is pulled from the StackExchange API (https://api.stackexchange.com/
 
 The page should contain your network and text analysis (that's the main part).
 
-### Text analysis
-## Are the code languages and topics on stack overflow even any different?
+## Text analysis
+### Examining code languages and topics on stack overflow
 
-Yes they are! And to show exactly how we have created two things for a select number of tags. The first one is a wheel of words characterizing the most common solved problems within each tag. These are generated from the words of the questions themselves, where the question resembles a problem and the words are commonly used words. The second display is a wordcloud. This is generated based on TF-IDF analysis on the bodies of a question. Each question have some number of answers, and these have been used in unison to characterize the tag/topic/code language. There will be a title, but maybe you can guess what tag they describe?
+Are there even any differences from one code language to another? Don't they just discuss the same things? There are certainly differences, and the discussions seem to be quite specific within each topic. A topic corresponds to what is used as a tag on Stack Overflow. To show exactly how the topics differs from each other, we have used two tools for visualisation for a select number of tags. The first one is a wheel of words characterizing the most common solved problems within each tag. These are generated from the words of the questions themselves, where the question resembles a problem and the words are commonly used words. The second thing on display is a wordcloud. This is generated based on TF-IDF analysis on the bodies of a question. Each question have some number of answers, and these have been used in unison to characterize the tag/topic/code language. Maybe you can guess what tag is described?
 
 INSERT WHEEL ON LEFT; WORDCLOUD ON RIGHT
 
