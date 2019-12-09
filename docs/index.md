@@ -109,8 +109,8 @@ It's very clear that most subject are only connected to approximately 5 or 6 oth
 
 ## Download dataset
 
-There should be download options for data sets (so the user can play around).
-SIMON
+All data used in the making of this webpage can be downloadet by clicking the following link.
+[Dataset download link](https://github.com/MadsVSChristensen/socialgraphs-project/raw/master/stackoverflow-data.zip 'Data set')
 
 ## Explainer notebook
 
