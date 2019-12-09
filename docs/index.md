@@ -10,8 +10,6 @@ The dataset is pulled from the StackExchange API (https://api.stackexchange.com/
 
 ## Analysis of network and text
 
-The page should contain your network and text analysis (that's the main part).
-
 ### Text analysis
 #### Examining code languages and topics on stack overflow
 
