@@ -1,8 +1,8 @@
 # Social graphs and interactions 2019 - A Stack Overflow Study
 
-## Central idea  <img src="Idea.png" width="125"/>
+## Central idea 
 
-<img style="float: right;" src="Idea.jpg" width="125"/>
+<img align="right" src="Idea.jpg" width="150" height="150"/>
 As a software engineer stackoverflow is used regularly, over not just a students lifetime at DTU, but also through a career. Therefore we thought it would be interesting to look into which questions or problems other people in the same situation deals with. The idea behind the project is to study stackoverflow's top questions over the last 10 years, to recognize the evolution of programming and identify which problems relates to which languages. We also look into which words are important to some programming languages/topics. Furthermore we create a network of programming languages and detect communities within the network.
 
 ## Dataset
@@ -16,7 +16,7 @@ The dataset is pulled from the StackExchange API (https://api.stackexchange.com/
 
 Are there even any differences from one code language to another? Don't they just discuss the same things and have the same problems? There are certainly differences, and the discussions and problems seems to be quite specific within each topic. A topic corresponds to what is used as a tag on Stack Overflow, and therefore a coding language. To show exactly how the topics differs from each other, we have used two tools for visualisation for a select number of tags. The first one is wheel of words characterizing the most common solved problems within each language. These are generated from the words of the question titles themselves, where the question resembles a direct problem and the words are shown based on how many times that word was used within a question for that language. The second thing on display are wordclouds. These are generated based on TF-IDF analysis on the bodies of a question, to showcase specific unique words that really characterizes and play an important role for that language. Each question have some number of answers, and these have been used in unison to characterize the tag/topic/code language. Maybe you can guess what tag is described?
 
-<img src="js-wordwheel.png" width="325"/> <img src="javascript-wc.PNG" width="325"/> 
+<img align="left" src="js-wordwheel.png" width="325"/> <img align="right" src="javascript-wc.PNG" width="325"/> 
 
 <img src="python-wordwheel.png" width="325"/> <img src="python-wc.PNG" width="325"/> 
 
