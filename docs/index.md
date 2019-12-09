@@ -5,7 +5,9 @@
 <img align="right" src="Idea.jpg" width="150" height="150"/>
 As a software engineer stackoverflow is used regularly, over not just a students lifetime at DTU, but also through a career. Therefore we thought it would be interesting to look into which questions or problems other people in the same situation deals with. The idea behind the project is to study stackoverflow's top questions over the last 10 years, to recognize the evolution of programming and identify which problems relates to which languages. We also look into which words are important to some programming languages/topics. Furthermore we create a network of programming languages and detect communities within the network.
 
-## Dataset <img src="stack_ikon.png" height="75"/>
+## Dataset
+
+<img src="stack_ikon.png" height="75"/>
 
 The dataset is pulled from the StackExchange API (https://api.stackexchange.com/). It consists of the top 100 questions every month, based on score in descending order for the described timeframe. The API only allows for pulling 100 questions at a time, which is why we pull for every month. This is done for the last 10 years, resulting in 1200 questions a year and a total of 12000 questions. The data is stored as a json object where the values from the tags, score, title and body keys is used for further processing. The body contains answers to the question. The dataset is around 30 mb in total. 
 
