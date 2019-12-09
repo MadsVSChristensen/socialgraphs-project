@@ -16,7 +16,7 @@ The dataset is pulled from the StackExchange API (https://api.stackexchange.com/
 
 Are there even any differences from one code language to another? Don't they just discuss the same things and have the same problems? There are certainly differences, and the discussions and problems seems to be quite specific within each topic. A topic corresponds to what is used as a tag on Stack Overflow, and therefore a coding language. To show exactly how the topics differs from each other, we have used two tools for visualisation for a select number of tags. The first one is wheel of words characterizing the most common solved problems within each language. These are generated from the words of the question titles themselves, where the question resembles a direct problem and the words are shown based on how many times that word was used within a question for that language. The second thing on display are wordclouds. These are generated based on TF-IDF analysis on the bodies of a question, to showcase specific unique words that really characterizes and play an important role for that language. Each question have some number of answers, and these have been used in unison to characterize the tag/topic/code language. Maybe you can guess what tag is described?
 
-<img align="left" src="js-wordwheel.png" width="325"/> <img align="right" src="javascript-wc.PNG" width="325"/> 
+<img src="js-wordwheel.png" width="325"/> <img src="javascript-wc.PNG" width="325"/> 
 
 <img src="python-wordwheel.png" width="325"/> <img src="python-wc.PNG" width="325"/> 
 
