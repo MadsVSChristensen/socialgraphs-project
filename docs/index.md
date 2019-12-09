@@ -1,7 +1,5 @@
 # Social graphs and interactions 2019 - A Stack Overflow Study
 
-[I'm an inline-style link with title](https://nbviewer.jupyter.org/github/MadsVSChristensen/socialgraphs-project/blob/master/Project-assignment.ipynb 'Explainer notebook')
-
 ## Central idea
 
 As a software engineer stackoverflow is used regularly, over not just a students lifetime at DTU, but also through a career. Therefore we thought it would be interesting to look into which questions or problems other people in the same situation deals with. The idea behind the project is to study stackoverflow's top questions over the last 10 years, to recognize the evolution of programming and identify which problems relates to which languages. We also look into which words are important to some programming languages/topics. Furthermore we create a network of programming languages and detect communities within the network.
@@ -118,6 +116,9 @@ There should be download options for data sets (so the user can play around).
 ## Explainer notebook
 
 You must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to an IPython notebook displaying on the nbviewer.
+
+[Link to explainer notebook](https://nbviewer.jupyter.org/github/MadsVSChristensen/socialgraphs-project/blob/master/Project-assignment.ipynb 'Explainer notebook')
+
 
 ## References
 
