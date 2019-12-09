@@ -17,15 +17,15 @@ The page should contain your network and text analysis (that's the main part).
 
 Are there even any differences from one code language to another? Don't they just discuss the same things and have the same problems? There are certainly differences, and the discussions and problems seems to be quite specific within each topic. A topic corresponds to what is used as a tag on Stack Overflow, and therefore a coding language. To show exactly how the topics differs from each other, we have used two tools for visualisation for a select number of tags. The first one is wheel of words characterizing the most common solved problems within each language. These are generated from the words of the question titles themselves, where the question resembles a direct problem and the words are shown based on how many times that word was used within a question for that language. The second thing on display are wordclouds. These are generated based on TF-IDF analysis on the bodies of a question, to showcase specific unique words that really characterizes and play an important role for that language. Each question have some number of answers, and these have been used in unison to characterize the tag/topic/code language. Maybe you can guess what tag is described?
 
-<img src="js-wordwheel.png" width="300"/> <img src="javascript-wc.PNG" width="300"/> 
+<img src="js-wordwheel.png" width="325"/> <img src="javascript-wc.PNG" width="325"/> 
 
-<img src="python-wordwheel.png" width="425"/> <img src="python-wc.PNG" width="325"/> 
+<img src="python-wordwheel.png" width="325"/> <img src="python-wc.PNG" width="325"/> 
 
-<img src="git-wordwheel.png" width="425"/> <img src="git-wc.PNG" width="425"/> 
+<img src="git-wordwheel.png" width="325"/> <img src="git-wc.PNG" width="325"/> 
 
-<img src="android-wordwheel.png" width="425"/> <img src="android-wc.PNG" width="425"/> 
+<img src="android-wordwheel.png" width="325"/> <img src="android-wc.PNG" width="325"/> 
 
-<img src="java-wordwheel.png" width="425"/> <img src="java-wc.PNG" width="425"/> 
+<img src="java-wordwheel.png" width="325"/> <img src="java-wc.PNG" width="325"/> 
 
 
 If it was too hard to guess, heres the order of display: Javascprit, Python, Git, Android, Java. These are select tags, based on them having the overall highest scores as we will see in the next part because they remain relevant and have been remaining relevant for the last many years.
@@ -112,13 +112,11 @@ It's very clear that most subject are only connected to approximately 5 or 6 oth
 ## Download dataset
 
 There should be download options for data sets (so the user can play around).
+SIMON
 
 ## Explainer notebook
 
-You must link to the Explainer Notebook (more details below) that explains the details of your analysis (including all of the machine learning, the model selection, etc). You can achieve this with a link to an IPython notebook displaying on the nbviewer.
-
 [Link to explainer notebook](https://nbviewer.jupyter.org/github/MadsVSChristensen/socialgraphs-project/blob/master/Project-assignment.ipynb 'Explainer notebook')
-
 
 ## References
 
