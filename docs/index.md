@@ -2,6 +2,7 @@
 
 ## Central idea  <img src="Idea.png" width="125"/>
 
+<img style="float: right;" src="Idea.jpg" width="125"/>
 As a software engineer stackoverflow is used regularly, over not just a students lifetime at DTU, but also through a career. Therefore we thought it would be interesting to look into which questions or problems other people in the same situation deals with. The idea behind the project is to study stackoverflow's top questions over the last 10 years, to recognize the evolution of programming and identify which problems relates to which languages. We also look into which words are important to some programming languages/topics. Furthermore we create a network of programming languages and detect communities within the network.
 
 ## Dataset
