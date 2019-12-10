@@ -81,7 +81,7 @@ We now look into communities within stack overflow. Only the popular tags are lo
 
 The modularity of the 5 tags is 0.74. This is a high modularity, meaning that we will see dense connections between the nodes in the groups, and sparse connection between the other groups.
 
-<img src="communities.png" width="325"/>
+<img src="communities.png"/>
 
 As seen, the 5 tags proves as really strong communities. This is a non-overlapping community which has a lot of dense connections internally between the 5 most popular tags, but sparse connections between the groups. Though as seen there is a hint of a overlapping community, like the android and java groups which both share a smaller comminty inside. They share a lot of dense connections between both groups, but also internally. These are also some nodes that play a strong intermediate role between groups, meaning they have a lot if not almost all of the connections between two groups. These could be outlier questions which regards both the tags of one from the top 5. The visualizaiton relates well to the high modularity.
 
