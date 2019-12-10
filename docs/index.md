@@ -77,7 +77,7 @@ Just to show that our data does infact portray the real world we show you reactj
 As you may have guessed from the bar plot, reactjs was launched in 2013 by Facebook and has since quickly gained a lot of popularity.
 
 #### Communities
-We now look into communities within stack overflow. Only the popular tags are looked into, which were javascript, android, git, python and java. We want to see how these communities behave and how strong they are.
+We now look into communities within stack overflow. Only the popular tags are looked into, which were javascript (yellow), android (green), git (red), python (blue) and java (orange). We want to see how these communities behave and how strong they are.
 
 The modularity of the 5 tags is 0.74. This is a high modularity, meaning that we will see dense connections between the nodes in the groups, and sparse connection between the other groups.
 
