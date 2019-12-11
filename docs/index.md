@@ -126,7 +126,7 @@ All data used in the making of this webpage can be downloadet by clicking the fo
 
 ## Explainer notebook
 
-[Link to explainer notebook](https://nbviewer.jupyter.org/github/MadsVSChristensen/socialgraphs-project/blob/master/Project-assignment.ipynb 'Explainer notebook')
+[Link to explainer notebook](https://nbviewer.jupyter.org/github/MadsVSChristensen/socialgraphs-project/blob/master/Final-assignment.ipynb 'Explainer notebook')
 
 ## References
 
